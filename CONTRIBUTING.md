@@ -147,6 +147,13 @@ mvn verify
 The above command invokes both unit and integration test suites. To execute only the integration
 tests, specify the `-DskipUTs` flag.
 
+### Test Coverage 
+
+To view the test coverage run:
+```bash
+mvn test -Djacoco
+```
+
 ### Generating API Docs
 
 Invoke the [Maven Javadoc plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/) as 
